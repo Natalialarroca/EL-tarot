@@ -35,22 +35,47 @@ h3 {
 }
 
 .header {
-    display: flex;
-    justify-content: flex-end;
-    padding: 5rem;
-    gap: 2rem;
 
-    background-color: #95818D;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8rem;
+    background-color: white;
+
 
     a {
-        color: blueviolet;
+        color: black;
+        margin-left: 20px;
+        font-size: 18px;
 
         &:hover {
-            color: aliceblue;
+            color: blueviolet;
         }
     }
 
+    .logo {
+        display: flex;
+        align-items: center;
+
+        p {
+            margin: 0;
+            font-size: 60px;
+            font-weight: bold;
+            font-family: 'Cinzel', serif;
+            ;
+            color: blueviolet;
+
+            &:hover {
+                background-color: blanchedalmond;
+                border-radius: 35px;
+            }
+
+        }
+
+    }
+
 }
+
 
 footer {
     color: white;
